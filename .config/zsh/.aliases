@@ -1,0 +1,10 @@
+# ls aliases
+alias la="ls -ahl"
+
+# clear into neofetch
+alias neoclear="clear && echo && neofetch"
+
+# xlip alias
+if [ $(command -v xclip) ]; then
+  alias clip="xclip -selection clipboard"
+fi

@@ -1,0 +1,19 @@
+POLYBAR LAYOUT
+
+all:
+  - powermenu
+  - cpu
+  - workpaces
+  - datetime
+  - wifi / eth
+  - bluetooth
+  - volume
+  - (disk space)
+  - battery
+  - backlight
+  - pulseaudio
+  - updates-available
+
+left: datetime cpu disk updates-available pulseaudio
+middle: i3-workspaces
+right: volume bluetooth wifi/eth backlight battery powermenu
